@@ -300,6 +300,5 @@ def reply():
          #   users.update_one({"number": number}, {"$set": {"status": "inquiries"}})
     return str(res)
 
-
 if __name__ == "__main__":
     app.run()
