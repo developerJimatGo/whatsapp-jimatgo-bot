@@ -78,7 +78,6 @@ def reply():
     elif user["status"] == "FAQ":
         try:
             option = int(text)
-
         except:
             res.message("Please enter a valid response")
             return str(res)
@@ -112,7 +111,6 @@ def reply():
     elif user["status"] == "return_to_FAQ":  # let user enter only "00" to return main menu and "0" to return FAQ
         try:
             option = int(text)
-
         except:
             res.message("Please enter a valid response")
             return str(res)
@@ -140,7 +138,6 @@ def reply():
     elif user["status"] == "location":
         try:
             option = int(text)
-
         except:
             res.message("Please enter a valid response")
             return str(res)
@@ -212,7 +209,6 @@ def reply():
     elif user["status"] == "services":
         try:
             option = int(text)
-
         except:
             res.message("Please enter a valid response")
             return str(res)
